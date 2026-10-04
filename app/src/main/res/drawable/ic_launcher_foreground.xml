@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Body -->
+    <path
+        android:pathData="M32,44 h32 a4,4 0 0,1 4,4 v24 a4,4 0 0,1 -4,4 h-32 a4,4 0 0,1 -4,-4 v-24 a4,4 0 0,1 4,-4 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="44"
+                android:endX="68"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F5C518" />
+                <item android:offset="1.0" android:color="#E5A910" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Camera Lens Cone -->
+    <path
+        android:pathData="M68,52 L82,42 a1,1 0 0,1 1.6,0.8 v26.4 a1,1 0 0,1 -1.6,0.8 L68,64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="68"
+                android:startY="42"
+                android:endX="84"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE047" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Dual Film Reels on Top -->
+    <!-- Left Reel -->
+    <path
+        android:pathData="M37,36 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"
+        android:fillColor="#F5C518" />
+    <path
+        android:pathData="M37,36 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#0D0C10" />
+    <!-- Right Reel -->
+    <path
+        android:pathData="M55,36 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"
+        android:fillColor="#F5C518" />
+    <path
+        android:pathData="M55,36 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#0D0C10" />
+    <!-- Aperture Core on Body -->
+    <path
+        android:pathData="M48,58 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#0D0C10" />
+    <path
+        android:pathData="M48,58 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#38BDF8" />
+    <!-- Cinematic Star / Sparkle in Upper Right -->
+    <path
+        android:pathData="M80,30 L81.5,35 L86.5,36.5 L81.5,38 L80,43 L78.5,38 L73.5,36.5 L78.5,35 Z"
+        android:fillColor="#FFFFFF" />
+</vector>

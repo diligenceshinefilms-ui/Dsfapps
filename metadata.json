@@ -1,0 +1,7 @@
+{
+  "name": "Diligence Shine Films",
+  "description": "Turn Your Vision Into Cinema. AI Cinematic Video Generator and AI Video Editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
